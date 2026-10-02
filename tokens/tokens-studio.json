@@ -1,0 +1,638 @@
+{
+  "core": {
+    "color": {
+      "klever-orange": {
+        "value": "#FF4119",
+        "type": "color",
+        "description": "Klever Neon Orange — единственный фирменный оранжевый (Pantone 172 C, CMYK 0/82/100/0). Акцент: знак, одна ключевая цифра, CTA, фон разделов. Других оттенков оранжевого нет. Текст на нём: carbon-black (4.9:1); white — только от 24px и логотип (3.5:1)."
+      },
+      "carbon-black": {
+        "value": "#1C1C1C",
+        "type": "color",
+        "description": "Klever Carbon Black (Pantone Black C) — основной тёмный вместо чистого чёрного. Текст на светлых поверхностях (14.8:1 на cool-gray), тёмные фоны."
+      },
+      "warm-gray": {
+        "value": "#BFB7B2",
+        "type": "color",
+        "description": "Klever Warm Gray (Pantone Warm Gray 4 C), шкала L*75. Подложки, плашки фото, логотип на оранжевом. Текст на нём только carbon-black (8.6:1); белый текст на warm-gray не проходит (2:1)."
+      },
+      "cool-gray": {
+        "value": "#F1EEEC",
+        "type": "color",
+        "description": "Klever Cool Gray (Pantone Cool Gray 2 C), L*94. Базовый светлый фон бренда вместо белого и чёрного: слайды, сайт, каталог."
+      },
+      "white": {
+        "value": "#FFFFFF",
+        "type": "color",
+        "description": "White. Поднятые поверхности на cool-gray (карточки, таблицы), текст и логотип на carbon-black и оранжевом (от 24px)."
+      },
+      "gray-10": {
+        "value": "{color.carbon-black}",
+        "type": "color",
+        "description": "Шкала нейтралей, индекс = светлота L*. 10 = Carbon Black."
+      },
+      "gray-15": {
+        "value": "#262625",
+        "type": "color",
+        "description": "Поднятая поверхность в тёмной теме, карточки на carbon."
+      },
+      "gray-20": {
+        "value": "#32302F",
+        "type": "color",
+        "description": "Hover тёмных кнопок, вторичные тёмные плашки."
+      },
+      "gray-25": {
+        "value": "#3E3B39",
+        "type": "color",
+        "description": "Линии и разделители на тёмных поверхностях."
+      },
+      "gray-35": {
+        "value": "#56514E",
+        "type": "color",
+        "description": "Вторичный текст на светлом (6.8:1 на cool-gray, 7.8:1 на white)."
+      },
+      "gray-45": {
+        "value": "#706965",
+        "type": "color",
+        "description": "Третичный текст и подписи на светлом (4.7:1 на cool-gray). Серый логотип на светлом фоне по гайду (шкала [45])."
+      },
+      "gray-55": {
+        "value": "#8A827E",
+        "type": "color",
+        "description": "Неактивные иконки, декоративные линии. Не для текста на светлом (3.3:1)."
+      },
+      "gray-65": {
+        "value": "#A49C97",
+        "type": "color",
+        "description": "Серый логотип и подписи на тёмном (6.3:1 на carbon). Шкала [65] гайда."
+      },
+      "gray-75": {
+        "value": "{color.warm-gray}",
+        "type": "color",
+        "description": "= Warm Gray, L*75."
+      },
+      "gray-85": {
+        "value": "#D9D3D0",
+        "type": "color",
+        "description": "Линии и разделители на светлом, рамки полей."
+      },
+      "gray-90": {
+        "value": "#E6E2DF",
+        "type": "color",
+        "description": "Плашка под фото на cool-gray, вдавленные поверхности."
+      },
+      "gray-94": {
+        "value": "{color.cool-gray}",
+        "type": "color",
+        "description": "= Cool Gray, L*94."
+      },
+      "gray-97": {
+        "value": "#F8F6F5",
+        "type": "color",
+        "description": "Альтернативная строка таблиц на white."
+      }
+    },
+    "spacing": {
+      "space-1": {
+        "value": "4px",
+        "type": "spacing",
+        "description": "Минимальный зазор: иконка и подпись."
+      },
+      "space-2": {
+        "value": "8px",
+        "type": "spacing",
+        "description": "Внутри тегов, между строкой и подписью."
+      },
+      "space-3": {
+        "value": "12px",
+        "type": "spacing",
+        "description": "Между заголовком карточки и текстом."
+      },
+      "space-4": {
+        "value": "16px",
+        "type": "spacing",
+        "description": "Внутренний отступ кнопок по горизонтали, гаттер мобильной сетки."
+      },
+      "space-5": {
+        "value": "24px",
+        "type": "spacing",
+        "description": "Гаттер сетки сайта и слайдов, отступы карточек."
+      },
+      "space-6": {
+        "value": "32px",
+        "type": "spacing",
+        "description": "Между группами внутри блока."
+      },
+      "space-7": {
+        "value": "48px",
+        "type": "spacing",
+        "description": "Поля сайта на планшете, между заголовком и контентом блока."
+      },
+      "space-8": {
+        "value": "64px",
+        "type": "spacing",
+        "description": "Поля соцсетей, вертикальный ритм секций на мобильном."
+      },
+      "space-9": {
+        "value": "80px",
+        "type": "spacing",
+        "description": "Поля слайда 1920×1080."
+      },
+      "space-10": {
+        "value": "128px",
+        "type": "spacing",
+        "description": "Вертикальный ритм секций сайта на десктопе."
+      }
+    },
+    "borderRadius": {
+      "radius-0": {
+        "value": "0px",
+        "type": "borderRadius",
+        "description": "Слайды, страницы каталога, фото в печати, цветовые плашки — бренд строится на прямых углах."
+      },
+      "radius-sm": {
+        "value": "4px",
+        "type": "borderRadius",
+        "description": "Теги, поля ввода, мелкие элементы."
+      },
+      "radius-md": {
+        "value": "16px",
+        "type": "borderRadius",
+        "description": "Карточки и плашки фото на сайте и в соцсетях."
+      },
+      "radius-pill": {
+        "value": "999px",
+        "type": "borderRadius",
+        "description": "Кнопки."
+      }
+    },
+    "fontFamilies": {
+      "display": {
+        "value": "Inter Display",
+        "type": "fontFamilies"
+      },
+      "mono": {
+        "value": "Geist Mono",
+        "type": "fontFamilies"
+      }
+    },
+    "typography": {
+      "display-xl": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Light",
+          "fontSize": "96px",
+          "lineHeight": "95%",
+          "letterSpacing": "-2.8%"
+        },
+        "type": "typography",
+        "description": "Главный заголовок сайта, обложки. Light, трекинг −2.8% (кегль 68–96)."
+      },
+      "display-l": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Light",
+          "fontSize": "72px",
+          "lineHeight": "100%",
+          "letterSpacing": "-2.8%"
+        },
+        "type": "typography",
+        "description": "Название продукта на hero и в каталоге."
+      },
+      "display-m": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Light",
+          "fontSize": "56px",
+          "lineHeight": "102%",
+          "letterSpacing": "-2.2%"
+        },
+        "type": "typography",
+        "description": "Заголовки секций сайта. Трекинг −2.2% (36–64)."
+      },
+      "heading-xl": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Regular",
+          "fontSize": "40px",
+          "lineHeight": "110%",
+          "letterSpacing": "-2.2%"
+        },
+        "type": "typography",
+        "description": "Заголовки блоков."
+      },
+      "heading-l": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Regular",
+          "fontSize": "32px",
+          "lineHeight": "115%",
+          "letterSpacing": "-1.8%"
+        },
+        "type": "typography",
+        "description": "Заголовки карточек крупного формата. Трекинг −1.8% (24–32)."
+      },
+      "heading-m": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Medium",
+          "fontSize": "24px",
+          "lineHeight": "120%",
+          "letterSpacing": "-1.8%"
+        },
+        "type": "typography",
+        "description": "Подзаголовки, названия в карточках. Medium."
+      },
+      "heading-s": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Medium",
+          "fontSize": "20px",
+          "lineHeight": "130%",
+          "letterSpacing": "-0.6%"
+        },
+        "type": "typography",
+        "description": "Малые подзаголовки. Трекинг −0.6% (14–20)."
+      },
+      "lead": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Regular",
+          "fontSize": "20px",
+          "lineHeight": "145%",
+          "letterSpacing": "-0.6%"
+        },
+        "type": "typography",
+        "description": "Лид под заголовком."
+      },
+      "body": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Regular",
+          "fontSize": "16px",
+          "lineHeight": "150%",
+          "letterSpacing": "-0.6%"
+        },
+        "type": "typography",
+        "description": "Основной текст: Regular."
+      },
+      "body-s": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Regular",
+          "fontSize": "14px",
+          "lineHeight": "145%",
+          "letterSpacing": "-0.6%"
+        },
+        "type": "typography",
+        "description": "Плотный текст, таблицы, карточки."
+      },
+      "caption": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Medium",
+          "fontSize": "12px",
+          "lineHeight": "140%",
+          "letterSpacing": "2.0%"
+        },
+        "type": "typography",
+        "description": "Подписи, мета, метки полей. Medium, трекинг +2% (0–12)."
+      },
+      "mono": {
+        "value": {
+          "fontFamily": "{fontFamilies.mono}",
+          "fontWeight": "Regular",
+          "fontSize": "14px",
+          "lineHeight": "140%",
+          "letterSpacing": "0%"
+        },
+        "type": "typography",
+        "description": "Geist Mono: значения характеристик, артикулы, код, навигационные метки. Не для заголовков."
+      },
+      "mono-s": {
+        "value": {
+          "fontFamily": "{fontFamilies.mono}",
+          "fontWeight": "Regular",
+          "fontSize": "12px",
+          "lineHeight": "140%",
+          "letterSpacing": "2.0%"
+        },
+        "type": "typography",
+        "description": "Артикулы, номера страниц, служебная маркировка."
+      },
+      "slide-hero": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Light",
+          "fontSize": "160px",
+          "lineHeight": "92%",
+          "letterSpacing": "-2.8%"
+        },
+        "type": "typography",
+        "description": "Обложка и разделители презентаций."
+      },
+      "slide-title": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Light",
+          "fontSize": "96px",
+          "lineHeight": "98%",
+          "letterSpacing": "-2.8%"
+        },
+        "type": "typography",
+        "description": "Заголовок слайда."
+      },
+      "slide-h2": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Light",
+          "fontSize": "56px",
+          "lineHeight": "105%",
+          "letterSpacing": "-2.2%"
+        },
+        "type": "typography",
+        "description": "Подзаголовок слайда, крупные цифры-подписи."
+      },
+      "slide-lead": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Regular",
+          "fontSize": "32px",
+          "lineHeight": "130%",
+          "letterSpacing": "-1.8%"
+        },
+        "type": "typography",
+        "description": "Лид слайда."
+      },
+      "slide-body": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Regular",
+          "fontSize": "24px",
+          "lineHeight": "140%",
+          "letterSpacing": "-1.8%"
+        },
+        "type": "typography",
+        "description": "Основной текст слайда, минимум для 16:9."
+      },
+      "slide-caption": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Medium",
+          "fontSize": "18px",
+          "lineHeight": "135%",
+          "letterSpacing": "-0.6%"
+        },
+        "type": "typography",
+        "description": "Подписи, колонтитулы."
+      },
+      "print-title": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Light",
+          "fontSize": "40px",
+          "lineHeight": "98%",
+          "letterSpacing": "-2.2%"
+        },
+        "type": "typography",
+        "description": "Название продукта на странице каталога, pt."
+      },
+      "print-h2": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Regular",
+          "fontSize": "18px",
+          "lineHeight": "120%",
+          "letterSpacing": "-0.6%"
+        },
+        "type": "typography",
+        "description": "Заголовки разделов каталога."
+      },
+      "print-body": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Regular",
+          "fontSize": "9.5px",
+          "lineHeight": "142%",
+          "letterSpacing": "0%"
+        },
+        "type": "typography",
+        "description": "Основной текст печати: не меньше 9 pt."
+      },
+      "print-caption": {
+        "value": {
+          "fontFamily": "{fontFamilies.display}",
+          "fontWeight": "Medium",
+          "fontSize": "7.5px",
+          "lineHeight": "135%",
+          "letterSpacing": "2.0%"
+        },
+        "type": "typography",
+        "description": "Подписи и колонтитулы печати: не меньше 7 pt."
+      }
+    }
+  },
+  "light": {
+    "color": {
+      "surface": {
+        "value": "{color.cool-gray}",
+        "type": "color",
+        "description": "Фон страницы, слайда, раздела."
+      },
+      "surface-raised": {
+        "value": "{color.white}",
+        "type": "color",
+        "description": "Карточки, таблицы, модальные окна поверх surface."
+      },
+      "surface-sunken": {
+        "value": "{color.gray-90}",
+        "type": "color",
+        "description": "Плашки под фото и медиа, поля ввода."
+      },
+      "surface-inverse": {
+        "value": "{color.carbon-black}",
+        "type": "color",
+        "description": "Контрастные блоки: полоса цифр, футер, тёмная кнопка."
+      },
+      "ink": {
+        "value": "{color.carbon-black}",
+        "type": "color",
+        "description": "Основной текст и заголовки на surface, surface-raised, surface-sunken (≥11:1 в обеих темах)."
+      },
+      "ink-muted": {
+        "value": "{color.gray-35}",
+        "type": "color",
+        "description": "Вторичный текст и лиды на surface и surface-raised (≥6.7:1)."
+      },
+      "ink-subtle": {
+        "value": "{color.gray-45}",
+        "type": "color",
+        "description": "Подписи, мета, единицы измерения на surface и surface-raised (≥4.6:1). Не на surface-sunken в светлой теме мелким кеглем."
+      },
+      "ink-inverse": {
+        "value": "{color.white}",
+        "type": "color",
+        "description": "Текст на surface-inverse."
+      },
+      "line": {
+        "value": "{color.gray-85}",
+        "type": "color",
+        "description": "Разделители, рамки таблиц и карточек (декоративные)."
+      },
+      "line-strong": {
+        "value": "{color.gray-55}",
+        "type": "color",
+        "description": "Рамки полей и вторичных кнопок (≥3:1 к surface)."
+      },
+      "accent": {
+        "value": "{color.klever-orange}",
+        "type": "color",
+        "description": "Акцент: CTA, одна выделенная цифра, активное состояние. Не фон для мелкого белого текста."
+      },
+      "on-accent": {
+        "value": "{color.carbon-black}",
+        "type": "color",
+        "description": "Текст и иконки на accent (4.9:1). Белый — только кегль от 24px."
+      },
+      "focus": {
+        "value": "{color.carbon-black}",
+        "type": "color",
+        "description": "Кольцо фокуса 2px со смещением 2px на всех поверхностях."
+      },
+      "logo-neutral": {
+        "value": "{color.gray-45}",
+        "type": "color",
+        "description": "Монохромный серый логотип по шкале гайда: [45] на светлом, [65] на тёмном."
+      },
+      "status-positive": {
+        "value": "#22704A",
+        "type": "color",
+        "description": "Успех: иконки и текст статуса «Готово», «В наличии» на surface и surface-raised (≥5.5:1). Всегда с иконкой или словом — не только цветом."
+      },
+      "status-negative": {
+        "value": "#B3261E",
+        "type": "color",
+        "description": "Ошибка: текст ошибки поля, рамка ошибочного поля, иконка (≥5.9:1). Темнее фирменного оранжевого по светлоте, чтобы не путать с акцентом. Всегда с текстом ошибки."
+      },
+      "status-warning": {
+        "value": "#8A5A00",
+        "type": "color",
+        "description": "Предупреждение: иконки и подписи «Мало на складе», «Срок истекает» (≥5.3:1). Всегда с иконкой или словом."
+      }
+    }
+  },
+  "dark": {
+    "color": {
+      "surface": {
+        "value": "{color.carbon-black}",
+        "type": "color",
+        "description": "Фон страницы, слайда, раздела."
+      },
+      "surface-raised": {
+        "value": "{color.gray-15}",
+        "type": "color",
+        "description": "Карточки, таблицы, модальные окна поверх surface."
+      },
+      "surface-sunken": {
+        "value": "{color.gray-20}",
+        "type": "color",
+        "description": "Плашки под фото и медиа, поля ввода."
+      },
+      "surface-inverse": {
+        "value": "{color.cool-gray}",
+        "type": "color",
+        "description": "Контрастные блоки: полоса цифр, футер, тёмная кнопка."
+      },
+      "ink": {
+        "value": "{color.cool-gray}",
+        "type": "color",
+        "description": "Основной текст и заголовки на surface, surface-raised, surface-sunken (≥11:1 в обеих темах)."
+      },
+      "ink-muted": {
+        "value": "{color.gray-75}",
+        "type": "color",
+        "description": "Вторичный текст и лиды на surface и surface-raised (≥6.7:1)."
+      },
+      "ink-subtle": {
+        "value": "{color.gray-65}",
+        "type": "color",
+        "description": "Подписи, мета, единицы измерения на surface и surface-raised (≥4.6:1). Не на surface-sunken в светлой теме мелким кеглем."
+      },
+      "ink-inverse": {
+        "value": "{color.carbon-black}",
+        "type": "color",
+        "description": "Текст на surface-inverse."
+      },
+      "line": {
+        "value": "{color.gray-25}",
+        "type": "color",
+        "description": "Разделители, рамки таблиц и карточек (декоративные)."
+      },
+      "line-strong": {
+        "value": "{color.gray-55}",
+        "type": "color",
+        "description": "Рамки полей и вторичных кнопок (≥3:1 к surface)."
+      },
+      "accent": {
+        "value": "{color.klever-orange}",
+        "type": "color",
+        "description": "Акцент: CTA, одна выделенная цифра, активное состояние. Не фон для мелкого белого текста."
+      },
+      "on-accent": {
+        "value": "{color.carbon-black}",
+        "type": "color",
+        "description": "Текст и иконки на accent (4.9:1). Белый — только кегль от 24px."
+      },
+      "focus": {
+        "value": "{color.cool-gray}",
+        "type": "color",
+        "description": "Кольцо фокуса 2px со смещением 2px на всех поверхностях."
+      },
+      "logo-neutral": {
+        "value": "{color.gray-65}",
+        "type": "color",
+        "description": "Монохромный серый логотип по шкале гайда: [45] на светлом, [65] на тёмном."
+      },
+      "status-positive": {
+        "value": "#6BC08F",
+        "type": "color",
+        "description": "Успех: иконки и текст статуса «Готово», «В наличии» на surface и surface-raised (≥5.5:1). Всегда с иконкой или словом — не только цветом."
+      },
+      "status-negative": {
+        "value": "#FF8A73",
+        "type": "color",
+        "description": "Ошибка: текст ошибки поля, рамка ошибочного поля, иконка (≥5.9:1). Темнее фирменного оранжевого по светлоте, чтобы не путать с акцентом. Всегда с текстом ошибки."
+      },
+      "status-warning": {
+        "value": "#E8B04A",
+        "type": "color",
+        "description": "Предупреждение: иконки и подписи «Мало на складе», «Срок истекает» (≥5.3:1). Всегда с иконкой или словом."
+      }
+    }
+  },
+  "$themes": [
+    {
+      "id": "light",
+      "name": "Светлая (серая)",
+      "selectedTokenSets": {
+        "core": "source",
+        "light": "enabled"
+      }
+    },
+    {
+      "id": "dark",
+      "name": "Графит",
+      "selectedTokenSets": {
+        "core": "source",
+        "dark": "enabled"
+      }
+    }
+  ],
+  "$metadata": {
+    "tokenSetOrder": [
+      "core",
+      "light",
+      "dark"
+    ]
+  }
+}

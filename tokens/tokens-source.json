@@ -1,0 +1,630 @@
+{
+ "name": "Клевер COEX",
+ "version": 1,
+ "meta": {
+  "source": "Руководство по фирменному стилю v.1 + логотипы и шрифты из архива «Фирменный стиль»"
+ },
+ "color": {
+  "themes": [
+   {
+    "id": "light",
+    "name": "Светлая (серая)"
+   },
+   {
+    "id": "dark",
+    "name": "Графит"
+   }
+  ],
+  "tokens": [
+   {
+    "name": "klever-orange",
+    "value": "#ff4119",
+    "usage": "Klever Neon Orange — единственный фирменный оранжевый (Pantone 172 C, CMYK 0/82/100/0). Акцент: знак, одна ключевая цифра, CTA, фон разделов. Других оттенков оранжевого нет. Текст на нём: carbon-black (4.9:1); white — только от 24px и логотип (3.5:1)."
+   },
+   {
+    "name": "carbon-black",
+    "value": "#1c1c1c",
+    "usage": "Klever Carbon Black (Pantone Black C) — основной тёмный вместо чистого чёрного. Текст на светлых поверхностях (14.8:1 на cool-gray), тёмные фоны."
+   },
+   {
+    "name": "warm-gray",
+    "value": "#bfb7b2",
+    "usage": "Klever Warm Gray (Pantone Warm Gray 4 C), шкала L*75. Подложки, плашки фото, логотип на оранжевом. Текст на нём только carbon-black (8.6:1); белый текст на warm-gray не проходит (2:1)."
+   },
+   {
+    "name": "cool-gray",
+    "value": "#f1eeec",
+    "usage": "Klever Cool Gray (Pantone Cool Gray 2 C), L*94. Базовый светлый фон бренда вместо белого и чёрного: слайды, сайт, каталог."
+   },
+   {
+    "name": "white",
+    "value": "#ffffff",
+    "usage": "White. Поднятые поверхности на cool-gray (карточки, таблицы), текст и логотип на carbon-black и оранжевом (от 24px)."
+   },
+   {
+    "name": "gray-10",
+    "value": "{carbon-black}",
+    "usage": "Шкала нейтралей, индекс = светлота L*. 10 = Carbon Black."
+   },
+   {
+    "name": "gray-15",
+    "value": "#262625",
+    "usage": "Поднятая поверхность в тёмной теме, карточки на carbon."
+   },
+   {
+    "name": "gray-20",
+    "value": "#32302f",
+    "usage": "Hover тёмных кнопок, вторичные тёмные плашки."
+   },
+   {
+    "name": "gray-25",
+    "value": "#3e3b39",
+    "usage": "Линии и разделители на тёмных поверхностях."
+   },
+   {
+    "name": "gray-35",
+    "value": "#56514e",
+    "usage": "Вторичный текст на светлом (6.8:1 на cool-gray, 7.8:1 на white)."
+   },
+   {
+    "name": "gray-45",
+    "value": "#706965",
+    "usage": "Третичный текст и подписи на светлом (4.7:1 на cool-gray). Серый логотип на светлом фоне по гайду (шкала [45])."
+   },
+   {
+    "name": "gray-55",
+    "value": "#8a827e",
+    "usage": "Неактивные иконки, декоративные линии. Не для текста на светлом (3.3:1)."
+   },
+   {
+    "name": "gray-65",
+    "value": "#a49c97",
+    "usage": "Серый логотип и подписи на тёмном (6.3:1 на carbon). Шкала [65] гайда."
+   },
+   {
+    "name": "gray-75",
+    "value": "{warm-gray}",
+    "usage": "= Warm Gray, L*75."
+   },
+   {
+    "name": "gray-85",
+    "value": "#d9d3d0",
+    "usage": "Линии и разделители на светлом, рамки полей."
+   },
+   {
+    "name": "gray-90",
+    "value": "#e6e2df",
+    "usage": "Плашка под фото на cool-gray, вдавленные поверхности."
+   },
+   {
+    "name": "gray-94",
+    "value": "{cool-gray}",
+    "usage": "= Cool Gray, L*94."
+   },
+   {
+    "name": "gray-97",
+    "value": "#f8f6f5",
+    "usage": "Альтернативная строка таблиц на white."
+   },
+   {
+    "name": "surface",
+    "value": {
+     "light": "{cool-gray}",
+     "dark": "{carbon-black}"
+    },
+    "usage": "Фон страницы, слайда, раздела."
+   },
+   {
+    "name": "surface-raised",
+    "value": {
+     "light": "{white}",
+     "dark": "{gray-15}"
+    },
+    "usage": "Карточки, таблицы, модальные окна поверх surface."
+   },
+   {
+    "name": "surface-sunken",
+    "value": {
+     "light": "{gray-90}",
+     "dark": "{gray-20}"
+    },
+    "usage": "Плашки под фото и медиа, поля ввода."
+   },
+   {
+    "name": "surface-inverse",
+    "value": {
+     "light": "{carbon-black}",
+     "dark": "{cool-gray}"
+    },
+    "usage": "Контрастные блоки: полоса цифр, футер, тёмная кнопка."
+   },
+   {
+    "name": "ink",
+    "value": {
+     "light": "{carbon-black}",
+     "dark": "{cool-gray}"
+    },
+    "usage": "Основной текст и заголовки на surface, surface-raised, surface-sunken (≥11:1 в обеих темах)."
+   },
+   {
+    "name": "ink-muted",
+    "value": {
+     "light": "{gray-35}",
+     "dark": "{gray-75}"
+    },
+    "usage": "Вторичный текст и лиды на surface и surface-raised (≥6.7:1)."
+   },
+   {
+    "name": "ink-subtle",
+    "value": {
+     "light": "{gray-45}",
+     "dark": "{gray-65}"
+    },
+    "usage": "Подписи, мета, единицы измерения на surface и surface-raised (≥4.6:1). Не на surface-sunken в светлой теме мелким кеглем."
+   },
+   {
+    "name": "ink-inverse",
+    "value": {
+     "light": "{white}",
+     "dark": "{carbon-black}"
+    },
+    "usage": "Текст на surface-inverse."
+   },
+   {
+    "name": "line",
+    "value": {
+     "light": "{gray-85}",
+     "dark": "{gray-25}"
+    },
+    "usage": "Разделители, рамки таблиц и карточек (декоративные)."
+   },
+   {
+    "name": "line-strong",
+    "value": {
+     "light": "{gray-55}",
+     "dark": "{gray-55}"
+    },
+    "usage": "Рамки полей и вторичных кнопок (≥3:1 к surface)."
+   },
+   {
+    "name": "accent",
+    "value": "{klever-orange}",
+    "usage": "Акцент: CTA, одна выделенная цифра, активное состояние. Не фон для мелкого белого текста."
+   },
+   {
+    "name": "on-accent",
+    "value": "{carbon-black}",
+    "usage": "Текст и иконки на accent (4.9:1). Белый — только кегль от 24px."
+   },
+   {
+    "name": "focus",
+    "value": {
+     "light": "{carbon-black}",
+     "dark": "{cool-gray}"
+    },
+    "usage": "Кольцо фокуса 2px со смещением 2px на всех поверхностях."
+   },
+   {
+    "name": "logo-neutral",
+    "value": {
+     "light": "{gray-45}",
+     "dark": "{gray-65}"
+    },
+    "usage": "Монохромный серый логотип по шкале гайда: [45] на светлом, [65] на тёмном."
+   },
+   {
+    "name": "status-positive",
+    "value": {
+     "light": "#22704a",
+     "dark": "#6bc08f"
+    },
+    "usage": "Успех: иконки и текст статуса «Готово», «В наличии» на surface и surface-raised (≥5.5:1). Всегда с иконкой или словом — не только цветом."
+   },
+   {
+    "name": "status-negative",
+    "value": {
+     "light": "#b3261e",
+     "dark": "#ff8a73"
+    },
+    "usage": "Ошибка: текст ошибки поля, рамка ошибочного поля, иконка (≥5.9:1). Темнее фирменного оранжевого по светлоте, чтобы не путать с акцентом. Всегда с текстом ошибки."
+   },
+   {
+    "name": "status-warning",
+    "value": {
+     "light": "#8a5a00",
+     "dark": "#e8b04a"
+    },
+    "usage": "Предупреждение: иконки и подписи «Мало на складе», «Срок истекает» (≥5.3:1). Всегда с иконкой или словом."
+   }
+  ]
+ },
+ "type": {
+  "fonts": [
+   {
+    "family": "Inter Display",
+    "file": "fonts/InterDisplay-Light.woff2",
+    "weight": "300"
+   },
+   {
+    "family": "Inter Display",
+    "file": "fonts/InterDisplay-Regular.woff2",
+    "weight": "400"
+   },
+   {
+    "family": "Inter Display",
+    "file": "fonts/InterDisplay-Medium.woff2",
+    "weight": "500"
+   }
+  ],
+  "families": {
+   "display": "\"Inter Display\", Inter, Arial, Helvetica, sans-serif",
+   "mono": "\"Geist Mono\", ui-monospace, Menlo, monospace"
+  },
+  "groups": [
+   {
+    "name": "Дисплей",
+    "family": "display",
+    "styles": [
+     {
+      "name": "display-xl",
+      "fontSize": "96px",
+      "lineHeight": "0.95",
+      "fontWeight": 300,
+      "letterSpacing": "-0.028em",
+      "sample": "Учим летать",
+      "usage": "Главный заголовок сайта, обложки. Light, трекинг −2.8% (кегль 68–96)."
+     },
+     {
+      "name": "display-l",
+      "fontSize": "72px",
+      "lineHeight": "1",
+      "fontWeight": 300,
+      "letterSpacing": "-0.028em",
+      "sample": "Клевер 4",
+      "usage": "Название продукта на hero и в каталоге."
+     },
+     {
+      "name": "display-m",
+      "fontSize": "56px",
+      "lineHeight": "1.02",
+      "fontWeight": 300,
+      "letterSpacing": "-0.022em",
+      "sample": "Дроны для школ",
+      "usage": "Заголовки секций сайта. Трекинг −2.2% (36–64)."
+     },
+     {
+      "name": "heading-xl",
+      "fontSize": "40px",
+      "lineHeight": "1.1",
+      "fontWeight": 400,
+      "letterSpacing": "-0.022em",
+      "sample": "Соберите первый дрон",
+      "usage": "Заголовки блоков."
+     },
+     {
+      "name": "heading-l",
+      "fontSize": "32px",
+      "lineHeight": "1.15",
+      "fontWeight": 400,
+      "letterSpacing": "-0.018em",
+      "sample": "Программа для кружков",
+      "usage": "Заголовки карточек крупного формата. Трекинг −1.8% (24–32)."
+     },
+     {
+      "name": "heading-m",
+      "fontSize": "24px",
+      "lineHeight": "1.2",
+      "fontWeight": 500,
+      "letterSpacing": "-0.018em",
+      "sample": "Комплект для класса",
+      "usage": "Подзаголовки, названия в карточках. Medium."
+     },
+     {
+      "name": "heading-s",
+      "fontSize": "20px",
+      "lineHeight": "1.3",
+      "fontWeight": 500,
+      "letterSpacing": "-0.006em",
+      "sample": "Что входит в набор",
+      "usage": "Малые подзаголовки. Трекинг −0.6% (14–20)."
+     }
+    ]
+   },
+   {
+    "name": "Текст",
+    "family": "display",
+    "styles": [
+     {
+      "name": "lead",
+      "fontSize": "20px",
+      "lineHeight": "1.45",
+      "fontWeight": 400,
+      "letterSpacing": "-0.006em",
+      "sample": "Набор для сборки и программирования квадрокоптера на уроках и в кружках.",
+      "usage": "Лид под заголовком."
+     },
+     {
+      "name": "body",
+      "fontSize": "16px",
+      "lineHeight": "1.5",
+      "fontWeight": 400,
+      "letterSpacing": "-0.006em",
+      "sample": "Дрон собирается за одно занятие и подходит для полётов в помещении.",
+      "usage": "Основной текст: Regular."
+     },
+     {
+      "name": "body-s",
+      "fontSize": "14px",
+      "lineHeight": "1.45",
+      "fontWeight": 400,
+      "letterSpacing": "-0.006em",
+      "sample": "Аккумулятор и зарядное устройство в комплекте.",
+      "usage": "Плотный текст, таблицы, карточки."
+     },
+     {
+      "name": "caption",
+      "fontSize": "12px",
+      "lineHeight": "1.4",
+      "fontWeight": 500,
+      "letterSpacing": "0.02em",
+      "sample": "Время полёта",
+      "usage": "Подписи, мета, метки полей. Medium, трекинг +2% (0–12)."
+     }
+    ]
+   },
+   {
+    "name": "Тех. акценты",
+    "family": "mono",
+    "styles": [
+     {
+      "name": "mono",
+      "fontSize": "14px",
+      "lineHeight": "1.4",
+      "fontWeight": 400,
+      "letterSpacing": "0",
+      "sample": "249 г  /  12 мин  /  Wi-Fi 5 ГГц",
+      "usage": "Geist Mono: значения характеристик, артикулы, код, навигационные метки. Не для заголовков."
+     },
+     {
+      "name": "mono-s",
+      "fontSize": "12px",
+      "lineHeight": "1.4",
+      "fontWeight": 400,
+      "letterSpacing": "0.02em",
+      "sample": "COEX-K4-EDU",
+      "usage": "Артикулы, номера страниц, служебная маркировка."
+     }
+    ]
+   },
+   {
+    "name": "Слайды 1920×1080",
+    "family": "display",
+    "styles": [
+     {
+      "name": "slide-hero",
+      "fontSize": "160px",
+      "lineHeight": "0.92",
+      "fontWeight": 300,
+      "letterSpacing": "-0.028em",
+      "sample": "Клевер",
+      "usage": "Обложка и разделители презентаций."
+     },
+     {
+      "name": "slide-title",
+      "fontSize": "96px",
+      "lineHeight": "0.98",
+      "fontWeight": 300,
+      "letterSpacing": "-0.028em",
+      "sample": "Кто мы",
+      "usage": "Заголовок слайда."
+     },
+     {
+      "name": "slide-h2",
+      "fontSize": "56px",
+      "lineHeight": "1.05",
+      "fontWeight": 300,
+      "letterSpacing": "-0.022em",
+      "sample": "Обучение пилотов",
+      "usage": "Подзаголовок слайда, крупные цифры-подписи."
+     },
+     {
+      "name": "slide-lead",
+      "fontSize": "32px",
+      "lineHeight": "1.3",
+      "fontWeight": 400,
+      "letterSpacing": "-0.018em",
+      "sample": "Готовая программа для школ.",
+      "usage": "Лид слайда."
+     },
+     {
+      "name": "slide-body",
+      "fontSize": "24px",
+      "lineHeight": "1.4",
+      "fontWeight": 400,
+      "letterSpacing": "-0.018em",
+      "sample": "Текст слайда.",
+      "usage": "Основной текст слайда, минимум для 16:9."
+     },
+     {
+      "name": "slide-caption",
+      "fontSize": "18px",
+      "lineHeight": "1.35",
+      "fontWeight": 500,
+      "letterSpacing": "-0.006em",
+      "sample": "Подпись",
+      "usage": "Подписи, колонтитулы."
+     }
+    ]
+   },
+   {
+    "name": "Печать A4 (595×842 pt)",
+    "family": "display",
+    "styles": [
+     {
+      "name": "print-title",
+      "fontSize": "40px",
+      "lineHeight": "0.98",
+      "fontWeight": 300,
+      "letterSpacing": "-0.022em",
+      "sample": "Клевер 4",
+      "usage": "Название продукта на странице каталога, pt."
+     },
+     {
+      "name": "print-h2",
+      "fontSize": "18px",
+      "lineHeight": "1.2",
+      "fontWeight": 400,
+      "letterSpacing": "-0.006em",
+      "sample": "Характеристики",
+      "usage": "Заголовки разделов каталога."
+     },
+     {
+      "name": "print-body",
+      "fontSize": "9.5px",
+      "lineHeight": "1.42",
+      "fontWeight": 400,
+      "letterSpacing": "0",
+      "sample": "Описание продукта в два-три предложения.",
+      "usage": "Основной текст печати: не меньше 9 pt."
+     },
+     {
+      "name": "print-caption",
+      "fontSize": "7.5px",
+      "lineHeight": "1.35",
+      "fontWeight": 500,
+      "letterSpacing": "0.02em",
+      "sample": "Масса",
+      "usage": "Подписи и колонтитулы печати: не меньше 7 pt."
+     }
+    ]
+   }
+  ]
+ },
+ "spacing": {
+  "tokens": [
+   {
+    "name": "space-1",
+    "value": "4px",
+    "usage": "Минимальный зазор: иконка и подпись."
+   },
+   {
+    "name": "space-2",
+    "value": "8px",
+    "usage": "Внутри тегов, между строкой и подписью."
+   },
+   {
+    "name": "space-3",
+    "value": "12px",
+    "usage": "Между заголовком карточки и текстом."
+   },
+   {
+    "name": "space-4",
+    "value": "16px",
+    "usage": "Внутренний отступ кнопок по горизонтали, гаттер мобильной сетки."
+   },
+   {
+    "name": "space-5",
+    "value": "24px",
+    "usage": "Гаттер сетки сайта и слайдов, отступы карточек."
+   },
+   {
+    "name": "space-6",
+    "value": "32px",
+    "usage": "Между группами внутри блока."
+   },
+   {
+    "name": "space-7",
+    "value": "48px",
+    "usage": "Поля сайта на планшете, между заголовком и контентом блока."
+   },
+   {
+    "name": "space-8",
+    "value": "64px",
+    "usage": "Поля соцсетей, вертикальный ритм секций на мобильном."
+   },
+   {
+    "name": "space-9",
+    "value": "80px",
+    "usage": "Поля слайда 1920×1080."
+   },
+   {
+    "name": "space-10",
+    "value": "128px",
+    "usage": "Вертикальный ритм секций сайта на десктопе."
+   }
+  ]
+ },
+ "radius": {
+  "tokens": [
+   {
+    "name": "radius-0",
+    "value": "0px",
+    "usage": "Слайды, страницы каталога, фото в печати, цветовые плашки — бренд строится на прямых углах."
+   },
+   {
+    "name": "radius-sm",
+    "value": "4px",
+    "usage": "Теги, поля ввода, мелкие элементы."
+   },
+   {
+    "name": "radius-md",
+    "value": "16px",
+    "usage": "Карточки и плашки фото на сайте и в соцсетях."
+   },
+   {
+    "name": "radius-pill",
+    "value": "999px",
+    "usage": "Кнопки."
+   }
+  ]
+ },
+ "layout": {
+  "note": "Сетки носителей. Все макеты строятся на модуле 8 px; поля и гаттеры — из spacing.",
+  "tokens": [
+   {
+    "name": "slide-size",
+    "value": "1920px 1080px",
+    "usage": "Презентации 16:9. 12 колонок, поля space-9 (80), гаттер space-5 (24)."
+   },
+   {
+    "name": "slide-columns",
+    "value": "12",
+    "usage": "Колонок на слайде; ширина колонки 124.67px."
+   },
+   {
+    "name": "a4-size",
+    "value": "595px 842px",
+    "usage": "Каталог и бланки A4 в pt. 6 колонок, поля 36 pt, гаттер 12 pt, вылет 8.5 pt (3 мм)."
+   },
+   {
+    "name": "web-container",
+    "value": "1280px",
+    "usage": "Максимальная ширина контента сайта; 12 колонок, гаттер space-5, поля space-7."
+   },
+   {
+    "name": "web-mobile",
+    "value": "390px",
+    "usage": "Мобильный макет: 4 колонки, поля space-4, гаттер space-4. Каталог в цифре обязан читаться здесь."
+   },
+   {
+    "name": "social-post",
+    "value": "1080px 1350px",
+    "usage": "Пост 4:5, поля space-8."
+   },
+   {
+    "name": "social-story",
+    "value": "1080px 1920px",
+    "usage": "Сторис 9:16, безопасная зона 250px сверху и снизу."
+   }
+  ]
+ },
+ "shadow": {
+  "tokens": [
+   {
+    "name": "shadow-overlay",
+    "value": "0 8px 32px rgba(28,28,28,0.12)",
+    "usage": "Только всплывающие меню и модальные окна. Карточки без тени: их отделяет surface-raised."
+   }
+  ]
+ }
+}

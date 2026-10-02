@@ -1,0 +1,239 @@
+{
+  "color": {
+    "klever-orange": {
+      "$type": "color",
+      "$value": "#FF4119",
+      "$description": "Klever Neon Orange — единственный фирменный оранжевый (Pantone 172 C, CMYK 0/82/100/0). Акцент: знак, одна ключевая цифра, CTA, фон разделов. Других оттенков оранжевого нет. Текст на нём: carbon-black (4.9:1); white — только от 24px и логотип (3.5:1)."
+    },
+    "carbon-black": {
+      "$type": "color",
+      "$value": "#1C1C1C",
+      "$description": "Klever Carbon Black (Pantone Black C) — основной тёмный вместо чистого чёрного. Текст на светлых поверхностях (14.8:1 на cool-gray), тёмные фоны."
+    },
+    "warm-gray": {
+      "$type": "color",
+      "$value": "#BFB7B2",
+      "$description": "Klever Warm Gray (Pantone Warm Gray 4 C), шкала L*75. Подложки, плашки фото, логотип на оранжевом. Текст на нём только carbon-black (8.6:1); белый текст на warm-gray не проходит (2:1)."
+    },
+    "cool-gray": {
+      "$type": "color",
+      "$value": "#F1EEEC",
+      "$description": "Klever Cool Gray (Pantone Cool Gray 2 C), L*94. Базовый светлый фон бренда вместо белого и чёрного: слайды, сайт, каталог."
+    },
+    "white": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "$description": "White. Поднятые поверхности на cool-gray (карточки, таблицы), текст и логотип на carbon-black и оранжевом (от 24px)."
+    },
+    "gray-10": {
+      "$type": "color",
+      "$value": "#1C1C1C",
+      "$description": "Шкала нейтралей, индекс = светлота L*. 10 = Carbon Black."
+    },
+    "gray-15": {
+      "$type": "color",
+      "$value": "#262625",
+      "$description": "Поднятая поверхность в тёмной теме, карточки на carbon."
+    },
+    "gray-20": {
+      "$type": "color",
+      "$value": "#32302F",
+      "$description": "Hover тёмных кнопок, вторичные тёмные плашки."
+    },
+    "gray-25": {
+      "$type": "color",
+      "$value": "#3E3B39",
+      "$description": "Линии и разделители на тёмных поверхностях."
+    },
+    "gray-35": {
+      "$type": "color",
+      "$value": "#56514E",
+      "$description": "Вторичный текст на светлом (6.8:1 на cool-gray, 7.8:1 на white)."
+    },
+    "gray-45": {
+      "$type": "color",
+      "$value": "#706965",
+      "$description": "Третичный текст и подписи на светлом (4.7:1 на cool-gray). Серый логотип на светлом фоне по гайду (шкала [45])."
+    },
+    "gray-55": {
+      "$type": "color",
+      "$value": "#8A827E",
+      "$description": "Неактивные иконки, декоративные линии. Не для текста на светлом (3.3:1)."
+    },
+    "gray-65": {
+      "$type": "color",
+      "$value": "#A49C97",
+      "$description": "Серый логотип и подписи на тёмном (6.3:1 на carbon). Шкала [65] гайда."
+    },
+    "gray-75": {
+      "$type": "color",
+      "$value": "#BFB7B2",
+      "$description": "= Warm Gray, L*75."
+    },
+    "gray-85": {
+      "$type": "color",
+      "$value": "#D9D3D0",
+      "$description": "Линии и разделители на светлом, рамки полей."
+    },
+    "gray-90": {
+      "$type": "color",
+      "$value": "#E6E2DF",
+      "$description": "Плашка под фото на cool-gray, вдавленные поверхности."
+    },
+    "gray-94": {
+      "$type": "color",
+      "$value": "#F1EEEC",
+      "$description": "= Cool Gray, L*94."
+    },
+    "gray-97": {
+      "$type": "color",
+      "$value": "#F8F6F5",
+      "$description": "Альтернативная строка таблиц на white."
+    },
+    "surface": {
+      "$type": "color",
+      "$value": "#F1EEEC",
+      "$description": "Фон страницы, слайда, раздела."
+    },
+    "surface-raised": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "$description": "Карточки, таблицы, модальные окна поверх surface."
+    },
+    "surface-sunken": {
+      "$type": "color",
+      "$value": "#E6E2DF",
+      "$description": "Плашки под фото и медиа, поля ввода."
+    },
+    "surface-inverse": {
+      "$type": "color",
+      "$value": "#1C1C1C",
+      "$description": "Контрастные блоки: полоса цифр, футер, тёмная кнопка."
+    },
+    "ink": {
+      "$type": "color",
+      "$value": "#1C1C1C",
+      "$description": "Основной текст и заголовки на surface, surface-raised, surface-sunken (≥11:1 в обеих темах)."
+    },
+    "ink-muted": {
+      "$type": "color",
+      "$value": "#56514E",
+      "$description": "Вторичный текст и лиды на surface и surface-raised (≥6.7:1)."
+    },
+    "ink-subtle": {
+      "$type": "color",
+      "$value": "#706965",
+      "$description": "Подписи, мета, единицы измерения на surface и surface-raised (≥4.6:1). Не на surface-sunken в светлой теме мелким кеглем."
+    },
+    "ink-inverse": {
+      "$type": "color",
+      "$value": "#FFFFFF",
+      "$description": "Текст на surface-inverse."
+    },
+    "line": {
+      "$type": "color",
+      "$value": "#D9D3D0",
+      "$description": "Разделители, рамки таблиц и карточек (декоративные)."
+    },
+    "line-strong": {
+      "$type": "color",
+      "$value": "#8A827E",
+      "$description": "Рамки полей и вторичных кнопок (≥3:1 к surface)."
+    },
+    "accent": {
+      "$type": "color",
+      "$value": "#FF4119",
+      "$description": "Акцент: CTA, одна выделенная цифра, активное состояние. Не фон для мелкого белого текста."
+    },
+    "on-accent": {
+      "$type": "color",
+      "$value": "#1C1C1C",
+      "$description": "Текст и иконки на accent (4.9:1). Белый — только кегль от 24px."
+    },
+    "focus": {
+      "$type": "color",
+      "$value": "#1C1C1C",
+      "$description": "Кольцо фокуса 2px со смещением 2px на всех поверхностях."
+    },
+    "logo-neutral": {
+      "$type": "color",
+      "$value": "#706965",
+      "$description": "Монохромный серый логотип по шкале гайда: [45] на светлом, [65] на тёмном."
+    },
+    "status-positive": {
+      "$type": "color",
+      "$value": "#22704A",
+      "$description": "Успех: иконки и текст статуса «Готово», «В наличии» на surface и surface-raised (≥5.5:1). Всегда с иконкой или словом — не только цветом."
+    },
+    "status-negative": {
+      "$type": "color",
+      "$value": "#B3261E",
+      "$description": "Ошибка: текст ошибки поля, рамка ошибочного поля, иконка (≥5.9:1). Темнее фирменного оранжевого по светлоте, чтобы не путать с акцентом. Всегда с текстом ошибки."
+    },
+    "status-warning": {
+      "$type": "color",
+      "$value": "#8A5A00",
+      "$description": "Предупреждение: иконки и подписи «Мало на складе», «Срок истекает» (≥5.3:1). Всегда с иконкой или словом."
+    }
+  },
+  "spacing": {
+    "space-1": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "space-2": {
+      "$type": "dimension",
+      "$value": "8px"
+    },
+    "space-3": {
+      "$type": "dimension",
+      "$value": "12px"
+    },
+    "space-4": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "space-5": {
+      "$type": "dimension",
+      "$value": "24px"
+    },
+    "space-6": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "space-7": {
+      "$type": "dimension",
+      "$value": "48px"
+    },
+    "space-8": {
+      "$type": "dimension",
+      "$value": "64px"
+    },
+    "space-9": {
+      "$type": "dimension",
+      "$value": "80px"
+    },
+    "space-10": {
+      "$type": "dimension",
+      "$value": "128px"
+    }
+  },
+  "radius": {
+    "radius-0": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "radius-sm": {
+      "$type": "dimension",
+      "$value": "4px"
+    },
+    "radius-md": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "radius-pill": {
+      "$type": "dimension",
+      "$value": "999px"
+    }
+  }
+}
